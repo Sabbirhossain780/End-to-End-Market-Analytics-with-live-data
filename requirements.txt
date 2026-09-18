@@ -1,0 +1,7 @@
+pyspark
+pandas
+requests
+apache-airflow==2.10.5
+yfinance
+scikit-learn
+numpy

@@ -1,8 +1,9 @@
-# CSE 6514: Big Data Analytics — Assignment 2
+# End-to-End Market Analytics
 
-Streaming analytics with PySpark + a Polygon/Massive.com stock API, and a set of
-Apache Airflow pipelines: a hello-world DAG, a 19-task dependency DAG, and a
-daily yfinance stock-prediction pipeline.
+Streaming stock analytics with PySpark + a Polygon/Massive.com API, orchestrated
+by a set of Apache Airflow pipelines: a hello-world DAG, a 19-task dependency
+DAG, and a daily yfinance fetch → walk-forward Ridge regression → error-tracking
+pipeline. Originally coursework for CSE 6514: Big Data Analytics.
 
 Full assignment brief: [assignment_brief/CSE6514_Assignment2_Brief.pdf](assignment_brief/CSE6514_Assignment2_Brief.pdf)
 Full write-up with screenshots: [report/CSE6514_Assignment2_0424056007.pdf](report/CSE6514_Assignment2_0424056007.pdf)

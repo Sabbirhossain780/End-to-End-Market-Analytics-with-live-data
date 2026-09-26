@@ -127,9 +127,8 @@ airflow scheduler           # in another
   (correlation > 0.999, feature-matrix condition number ~1e8–1e9), which made
   plain OLS produce wildly unstable coefficients for 3 of the 5 tickers.
   `diagnose.py` is the script used to confirm this before switching.
-- `airflow_pipeline/scripts/hello.sh` is a recreated placeholder — the
-  original file used during the actual DAG run wasn't among the exported
-  materials. Swap in the original if you still have it.
+- `airflow_pipeline/scripts/hello.sh` is a recreated placeholder; the
+  original wasn't preserved.
 
 ## Author
 

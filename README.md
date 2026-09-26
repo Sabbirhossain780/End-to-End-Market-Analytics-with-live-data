@@ -115,11 +115,6 @@ airflow webserver -p 8080   # in one terminal
 airflow scheduler           # in another
 ```
 
-> **Note:** this repo previously had a real API key committed in the
-> notebook. It has been replaced with an environment-variable read. If you're
-> the original owner of that key, treat it as compromised and rotate it —
-> it's also still visible inside a screenshot in the report PDF.
-
 ## Notable design decisions
 
 - **Streaming analytics replays a fixed prior-business-day window** instead of
